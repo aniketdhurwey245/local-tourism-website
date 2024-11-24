@@ -1,0 +1,151 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('fort.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 690px;
+    color: #0a0408;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 200px;
+    border: 3px solid black;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: rgb(206, 50, 92);
+    color: #fffdfd;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #f04;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Categories Section */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.category {
+    text-align: center;
+    width: 30%;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+}
+
+.category h3 {
+    margin: 10px 0;
+}
+
+/* Featured Section */
+.featured {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.featured-item {
+    width: 45%;
+    text-align: center;
+}
+
+/* Events Section */
+.events, .map, .business-directory, .blog, .newsletter {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Testimonials & Instagram Section */
+.testimonials, .instagram-feed {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-links a,
+footer .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}

@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head{
+    display:flex;
+    background-color: rgb(83, 179, 196);
+    color: rgb(2, 17, 19);
+    font-size: 18px;
+    border:1px;
+    border-radius: 1px;
+    height: 100px;
+    text-align: center;
+}
+.container{
+    margin-left: 350px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.image{
+    height:100px;
+    width: 180px;
+    border-radius: 5px;
+    background-image: url("fort.jpg");
+    background-size:contain;
+}
+.logo{
+    display:flex;
+    height: 25px;
+    justify-content: space-between;
+    background-color: #f04;
+    font-size: larger;
+    color: aliceblue;
+    
+}
+.border{
+    height: 900px;
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: "";
+    margin: 25px;
+  }
+  
+  @keyframes changetext {
+    0% {
+      content: "Gwalior";
+      color: #f04;
+    }
+    20% {
+      content: "Gwalior Fort";
+      color: green;
+    }
+    35% {
+      content: "Sun Temple";
+      color: blueviolet;
+    }
+    50% {
+      content: "Jai Vilash Palace";
+      color: palevioletred;
+    }
+    60% {
+      content: "Tansen";
+      color: yellowgreen;
+    }
+    70% {
+      content: "Tigra Dam";
+      color: aqua;
+    }
+    80% {
+      content: "Laxmibai ka Makbara";
+      color: chocolate;
+    }
+    100% {
+      content: "Achleshwar Temple";
+      color: cornflowerblue;
+    }
+  }
+.login{
+    margin-top: 20px;
+    padding: 40px;
+    margin-left: 45%;
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.email{
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 10px;
+}
+.password{
+    padding: 4px;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+button{
+    background-color:rgb(93, 120, 251);
+    color: white;
+    padding:5px;
+    border-radius: 7px;
+    margin-top: 0px;
+    width: 70px; 
+    height: auto;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+.moto{
+    margin-top: 15px;
+    height: 100px;
+    font-size: 25px;
+    background-color: rgb(174, 139, 222);
+    text-align: center;
+    
+}
+
+.backgroundChange{
+    height: 600px;
+    animation: change 50s infinite ease-in-out;
+    /* background-size: cover; */
+    overflow: hidden;
+    position: relative;
+    background-image: url("fort.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+@keyframes change {
+    0%
+    {
+        background-image: url("fort.jpg");
+    }
+    20%
+    {
+        background-image: url("jai Vilash palace.jpg");
+    }
+    40%
+    {
+        background-image: url("sun temple.jpeg");
+    }
+    60%
+    {
+        background-image: url("oip.png");
+    }
+    80%
+    {
+        background-image: url("tigra.jpeg");
+    }
+    100%
+    {
+        background-image: url("bejataal.jpg");
+    }
+}
